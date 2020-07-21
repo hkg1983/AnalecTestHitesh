@@ -1,0 +1,12 @@
+﻿<Window x:Class="AnalecTestHitesh.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:prism="http://prismlibrary.com/"
+        Title="Student Dashboard" Height="1280" Width="720" WindowStartupLocation="CenterScreen" WindowState="Maximized"  >
+    <Grid>
+        <ContentControl x:Name="StudentContent" Margin="1" prism:RegionManager.RegionName="StudentRegion" Height="Auto" Width="Auto"></ContentControl>
+    </Grid>
+</Window>
